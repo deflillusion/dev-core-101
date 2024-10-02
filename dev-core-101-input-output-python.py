@@ -6,6 +6,6 @@ print(f"Привет, {name}. Тебе {age} лет.")
 age = int(age)
 
 if age <= 100:
-    print(100-age+2024)
+    print("Вам исполнится 100 лет в", 100-age+2024, "году")
 else:
     print("Вам более 100 лет.")
